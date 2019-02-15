@@ -1,0 +1,148 @@
+html, body {
+    margin: 0;
+    padding: 0; 
+    background-color: whitesmoke;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+.menu-left a {
+    text-decoration: none;
+    padding: 6px 15px 10px 16px;
+    font-size: 18px;
+    color: black;
+    display: block;
+    font-family: 'Roboto Mono';
+}
+
+.menu-left {
+    float: left;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: transparent;
+    padding-top: 20px;
+    padding: 8px 0;
+    opacity: 0.6;
+}
+
+
+.content {
+    float: right;
+    width: 85%;
+    height: 1300px;
+}
+
+#accueil h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    color: black;
+    position: relative;
+    top: 220px;
+    left: 350px;
+}
+
+#accueil {
+    width: 1500px;
+    height: 500px;
+    background-image: url(images/bay-bridge.jpg);
+    background-repeat: no-repeat;
+    background-size: 1150px;
+}
+
+
+.content-text {
+    display: inline-block;
+    width: 350px;
+    margin-left: 5px;
+    text-align: justify;
+    padding: 10px;
+    border: 2px rgba(95, 193, 62, 1) solid;
+    background-image: url(images/plant-minimal.jpg);
+    background-size:cover;
+}
+
+.content-text p:first-letter {
+    font-size: 50px;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+}
+
+.pic-section {
+    height: 350px;
+}
+
+img {
+    width: 30%;
+    float: right;
+    margin: 15px;
+}
+
+.video-section {
+    width: auto;
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    
+}
+
+form {
+    text-align: center;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+    border-radius: 10px; 
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    background-color: #efefef;
+    color: #787575;
+}
+
+textarea {
+    height: 150px;
+    
+}
+
+.submit {
+    background-color: dodgerblue;
+    color: white;
+    border:0;
+    font-weight: bold;
+}
+
+.fab {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+
+
+
+
